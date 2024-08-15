@@ -69,7 +69,6 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
         while (true) {
-
             System.out.println("---------------------");
             System.out.println("Escolha a opção: ");
             System.out.println("{1} Criar conteudo");
