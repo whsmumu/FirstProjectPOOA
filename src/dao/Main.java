@@ -6,7 +6,7 @@ import domain.Usuario;
 import java.util.Scanner;
 
 public class Main {
-    private static Programa programa = new Programa();
+    private static final Programa programa = new Programa();
 
     public static void main(String[] args) {
         menu();

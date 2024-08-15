@@ -66,11 +66,11 @@ public class Programa implements IPrograma {
             }
         }
     }
-
     @Override
     public Collection<Conteudo> listarConteudo() {
         return listConteudo;
     }
+
     @Override
     public boolean verificaUser(Long ID, Integer password) {
         for (Usuario usuario : listUser) {
